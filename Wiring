@@ -1,0 +1,18 @@
+The document describes the wiring used which corresponds to the code.
+
+The accelerometer module has 5 pins, namely
+  GND - To be connected to Arduino's GND
+  VCC - To be connected to Arduino's 5V
+  X - To be connected to Analog Pin A3
+  Y - To be connected to Analog Pin A2
+  Z - To be connected to Analog Pin A1
+
+The 16x2 LCD is I2C:
+  GND - To be connected to Arduino's GND
+  VCC - To be connected to Arduino's 5V
+  SDA - To be connected to Analog Pin A4
+  SLC - To be connected to Analog Pin A5
+
+
+
+
