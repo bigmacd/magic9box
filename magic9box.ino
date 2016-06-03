@@ -86,6 +86,7 @@ void setup()
   lcd.setCursor(0, 1);
   lcd.print("version 0.92");
   delay(1750);
+  lcd.clear();
   lcd.noBacklight();
   accelReadMillis = millis();
 }
